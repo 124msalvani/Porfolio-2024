@@ -1,0 +1,311 @@
+
+
+.bgstyle2{
+    background-color: white;
+    filter: drop-shadow(16px 10px black);
+    
+} 
+  
+.heightbig{
+    height: 100%;
+}
+  
+  /*
+  .bg-gradient2{
+    background: linear-gradient(-45deg, #614385, #516395, #C33764, #1D2671);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    overflow-x: hidden;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  } */
+  
+  .border-round{
+    border-radius: 16px;
+  }
+  
+  .border-left{
+    border-left: solid 1px black;
+  
+  }
+  
+  .border2{
+    border: #680856 solid 2px;
+  }
+  
+  .border1{
+    border: #3b3efe solid 1px;
+  }
+  
+  .rowwhite{
+    background-color: white;
+  }
+  
+  #Circle{
+    width: 50%;
+    height: 50%;
+    background: red;
+    border-radius: 50%;
+}
+  
+  
+  /*Image Overlay */
+  
+  .imagetest {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(188, 203, 247,0.95);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .col:hover .overlay {
+    height: 100%;
+  }
+  
+  .hovertext{
+    color: white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  
+  
+  /*End Image Overlay */
+  
+  
+  
+  
+  
+  .nobg{
+    background-color: transparent;
+    color: white;
+    padding-top: 20%;
+    
+  }
+  
+  .bgpurple{
+    background-color: #8c87bb;
+  }
+  
+  .has-bg-img{
+    background: url(../img/Aesthetic.gif) no-repeat fixed;
+    background-size: cover;
+    background-clip: padding-box;
+  }
+  
+  .has-bg-img-2{
+    background: url(../img/boxvideo.gif) no-repeat center center fixed;
+    background-size: cover;
+    background-clip: padding-box;
+  }
+  
+  .has-bg-img-3{
+    background: url(../img/TCAtest.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 150px;
+  }
+  
+  .has-bg-img-4{
+    background: url(../img/bootstrappractical.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 150px;
+  }
+  
+  .has-bg-img-5{
+    background: url(../img/TCA2img.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 150px;
+  }
+  
+  .has-bg-img-6{
+    background: url(../img/periwinkle.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    color:white
+  }
+  
+  .verytall{
+    height:100px;
+  }
+  
+  h1{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 60px;
+  }
+  
+  h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+  }
+  
+  h3{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 20px;
+  }
+  
+  h4{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 15px;
+  }
+  
+  
+  .navbar-nav{
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px
+  }
+  
+  .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+  }
+  
+  .OtherInterests, .OtherInterests:link, ab, ab:link{
+    color: #FFFFFF;
+    background-color: #a083ca;
+    border-color: purple;
+  }
+  
+  .OtherInterests:visited, ab:visited{
+    color:#FFFFFF;
+    background-color: #ae6fbe;
+  }
+  
+  .OtherInterests:hover, ab:hover{
+    background-color: #4d0783;
+    border-color: rgb(9, 0, 17);
+    color:white;
+  }
+  
+  .btn-yippee, .btn-yippee:link ab, ab:link{
+    color: white;
+    background-color: #D74766;
+    border-color: #bf4559;
+  }
+  
+  
+  .btn-yippee:visited, ab:visited{
+    color: white;
+    background-color: #e88999;
+  }
+  
+  .btn-yippee:hover, ab:hover{
+    color: white;
+    background-color: #c31f3b;
+  }
+  
+  .BtnAboutMe, .BtnAboutMe:link, ab, ab:link{
+    color: #FFFFFF;
+    background-color: #8e8ced;
+  border-color: #40498f;
+  }
+  
+  .BtnAboutMe:visited, ab:visited{
+    color:#FFFFFF;
+    background-color: #c2bae9;
+  }
+  
+  .BtnAboutMe:hover, ab:hover{
+    background-color: #4636a5;
+    color:white;
+    transform: scale(0.94);
+    animation: scale 3s backwards cubic-bezier(0.5, 1, 0.89, 1);
+  }
+  
+  .bg-prettypink{
+    background-color: rgba(255,255,255,0.94);
+  }
+  /*aaaa*/
+  .fancypink{
+    color: #B7C3F3;
+    font-size: 90px;
+    filter: drop-shadow(1px 1px 1px black);
+  
+  }
+  
+  #MSLogoStyle{
+    width:70px;
+    height: auto;
+  }
+  
+  #BoxVideo{
+    height: 500px;
+  }
+  
+  
+  #ProjectsBox{
+    height:500px;
+  }
+  
+  .imagetexttime{
+    position: relative;
+    text-align: center;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .prettytitle{
+    font-size: 60px;
+    font-display: bold;
+    color: #680856;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    filter: drop-shadow(16px 16px 10px black);
+  }
+  
+  
+  @media only screen and (min-width: 992px) {
+    h1{
+      font-size: 100px;
+    }
+    .expandh3 {
+      font-size: 70px;
+    }
+    .p-expand {
+      font-size: 30px;
+    }
+    .nobg{
+      padding-top: 0%;
+    }
+  }
+  
+  
+  /*
+  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  */

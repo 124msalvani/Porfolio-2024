@@ -1,5 +1,12 @@
+body { min-height: 100vh; }
 .HomeBody{
   background-color: #7A276C;
+}
+
+.AboutBody{
+  
+  background: rgb(122,39,108);
+background: linear-gradient(180deg, rgba(122,39,108,1) 0%, rgba(159,35,95,1) 64%, rgba(159,35,95,1) 86%);
 }
 
 
@@ -75,7 +82,9 @@
   background-color: white;
 }
 
-
+.textShadow{
+  text-shadow: 1px 1px 2px black;
+}
 
 /*Image Overlay */
 
@@ -143,15 +152,18 @@
 }
 
 .has-bg-img{
+  
   background: url(../img/SAFEClub.png);
   background-size: cover;
   background-clip: padding-box;
 }
 
 .has-bg-img-2{
-  background: url(../img/boxvideo.gif) no-repeat center center fixed;
+  width: 400px;
+  height: 400px;
+  background: url(../img/gamedev.jpg);
   background-size: cover;
-  background-clip: padding-box;
+  background-clip: padding-box
 }
 
 .has-bg-img-3{
@@ -200,7 +212,7 @@ h3{
 
 h4{
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
-  font-size: 15px;
+  font-size: 40px;
 }
 
 
@@ -278,7 +290,7 @@ border-color: #40498f;
   filter: drop-shadow(1px 1px 1px black); 
 }
 
-.bg-white{
+.boxShadow{
   box-shadow: 8px 7px 6px #000000;
 }
 
@@ -317,19 +329,11 @@ border-color: #40498f;
 }
 
 
-@media only screen and (min-width: 992px) {
-  h1{
-    font-size: 100px;
-  }
-  .expandh3 {
+@media screen and (min-width: 900px) {
+  h2{
     font-size: 70px;
   }
-  .p-expand {
-    font-size: 30px;
-  }
-  .nobg{
-    padding-top: 0%;
-  }
+ 
 }
 
 

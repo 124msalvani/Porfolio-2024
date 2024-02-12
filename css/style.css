@@ -4,7 +4,6 @@ body { min-height: 100vh; }
 }
 
 .AboutBody{
-  
   background: rgb(122,39,108);
 background: linear-gradient(180deg, rgba(122,39,108,1) 0%, rgba(159,35,95,1) 64%, rgba(159,35,95,1) 86%);
 }
@@ -151,11 +150,13 @@ background: linear-gradient(180deg, rgba(122,39,108,1) 0%, rgba(159,35,95,1) 64%
   background-clip: padding-box;  border-radius: 50%;
 }
 
-.has-bg-img{
-  
-  background: url(../img/SAFEClub.png);
-  background-size: cover;
-  background-clip: padding-box;
+.page-holder {
+  min-height: 50vh;
+}
+
+.bg-cover {
+  background-size: cover !important;
+  box-shadow: 0 3000px rgba(56, 1, 70, 0.572) inset;
 }
 
 .has-bg-img-2{
@@ -228,29 +229,13 @@ h4{
   z-index: 10000;
 }
 
-.OtherInterests, .OtherInterests:link, ab, ab:link{
-  color: #FFFFFF;
-  background-color: #a083ca;
-  border-color: purple;
-}
 
-.OtherInterests:visited, ab:visited{
-  color:#FFFFFF;
-  background-color: #ae6fbe;
-}
-
-.OtherInterests:hover, ab:hover{
-  background-color: #4d0783;
-  border-color: rgb(9, 0, 17);
-  color:white;
-}
 
 .btn-yippee, .btn-yippee:link ab, ab:link{
   color: white;
-  background-color: #D74766;
-  border-color: #bf4559;
+  background-color: #9F235F;
+  border-radius: 0%;
 }
-
 
 .btn-yippee:visited, ab:visited{
   color: white;
@@ -262,23 +247,6 @@ h4{
   background-color: #c31f3b;
 }
 
-.BtnAboutMe, .BtnAboutMe:link, ab, ab:link{
-  color: #FFFFFF;
-  background-color: #8e8ced;
-border-color: #40498f;
-}
-
-.BtnAboutMe:visited, ab:visited{
-  color:#FFFFFF;
-  background-color: #c2bae9;
-}
-
-.BtnAboutMe:hover, ab:hover{
-  background-color: #4636a5;
-  color:white;
-  transform: scale(0.94);
-  animation: scale 3s backwards cubic-bezier(0.5, 1, 0.89, 1);
-}
 
 .bg-prettypink{
   background-color: rgba(255,255,255,0.94);
@@ -294,29 +262,34 @@ border-color: #40498f;
   box-shadow: 8px 7px 6px #000000;
 }
 
+
+.boxShadow2{
+  box-shadow: 2px 2px 6px #000000;
+  
+}
+
+
+
+.blackBorder{
+  border: solid black 1px;
+}
+
+
 #MSLogoStyle{
   width:70px;
   height: auto;
 }
 
-#BoxVideo{
-  height: 500px;
+#HomeWorkRow{
+  padding-top: 3rem;
+  margin: 3rem;
 }
 
-
-#ProjectsBox{
-  height:500px;
-}
-
-.imagetexttime{
-  position: relative;
-  text-align: center;
-}
 
 .centered {
-  position: absolute;
+  position: relative;
   top: 50%;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%, -50%);
 }
 
@@ -329,11 +302,27 @@ border-color: #40498f;
 }
 
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 991px) {
+  h1{
+    font-size: 110px;
+  }
   h2{
     font-size: 70px;
   }
- 
+  h3{
+    font-size: 40px;
+  }
+  h4{
+    font-size: 30px;
+  }
+  #HomeWorkRow{
+    padding-top: 0%;
+    margin: 0%;
+    margin-left: 1rem;
+  }
+  .centered{
+    left:50%
+  }
 }
 
 

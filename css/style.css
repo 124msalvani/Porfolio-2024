@@ -79,10 +79,6 @@ background: linear-gradient(180deg, rgba(117,81,164,1) 25%, rgba(207,186,239,1) 
   border: #680856 solid 2px;
 }
 
-.border1{
-  border: #3b3efe solid 1px;
-}
-
 .rowwhite{
   background-color: white;
 }
@@ -175,7 +171,7 @@ background: linear-gradient(180deg, rgba(117,81,164,1) 25%, rgba(207,186,239,1) 
 .has-bg-img-2{
   width: 60vh;
   height: 400px;
-  background: url(../img/gamedev.jpg);
+  background: url(../img/genshinguide.png);
   background-size: cover;
   background-clip: padding-box
 }
@@ -205,9 +201,6 @@ background: linear-gradient(180deg, rgba(117,81,164,1) 25%, rgba(207,186,239,1) 
   color:white
 }
 
-.verytall{
-  height:100px;
-}
 
 h1{
   font-family: 'Nothing You Could Do', cursive;
@@ -252,12 +245,12 @@ h4{
 
 .btn-yippee:visited, ab:visited{
   color: white;
-  background-color: #e88999;
+  background-color: #891e52;
 }
 
 .btn-yippee:hover, ab:hover{
   color: white;
-  background-color: #c31f3b;
+  background-color: #b53a74;
 }
 
 

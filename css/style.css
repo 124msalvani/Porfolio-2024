@@ -8,6 +8,12 @@ body { min-height: 100vh; }
 background: linear-gradient(180deg, rgba(122,39,108,1) 0%, rgba(159,35,95,1) 64%, rgba(159,35,95,1) 86%);
 }
 
+.WorkBody{
+  background: rgb(117,81,164);
+background: linear-gradient(180deg, rgba(117,81,164,1) 25%, rgba(207,186,239,1) 64%, rgba(221,215,255,1) 86%);
+}
+
+
 
 /*Header Stuff*/
 
@@ -81,6 +87,11 @@ background: linear-gradient(180deg, rgba(122,39,108,1) 0%, rgba(159,35,95,1) 64%
   background-color: white;
 }
 
+.containerwhite{
+  background-color: white;
+ 
+}
+
 .textShadow{
   text-shadow: 1px 1px 2px black;
 }
@@ -91,6 +102,7 @@ background: linear-gradient(180deg, rgba(122,39,108,1) 0%, rgba(159,35,95,1) 64%
   display: block;
   width: 100%;
   height: auto;
+  
 }
 
 
@@ -104,6 +116,7 @@ background: linear-gradient(180deg, rgba(122,39,108,1) 0%, rgba(159,35,95,1) 64%
   width: 100%;
   height: 0;
   transition: .5s ease;
+  
 }
 
 .col:hover .overlay {
@@ -112,8 +125,8 @@ background: linear-gradient(180deg, rgba(122,39,108,1) 0%, rgba(159,35,95,1) 64%
 
 .hovertext{
   color: white;
-  font-family: 'Zen Kaku Gothic Antique', sans-serif;
-
+  font-family: 'Raleway', sans-serif;;
+  font-size: 40px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -160,7 +173,7 @@ background: linear-gradient(180deg, rgba(122,39,108,1) 0%, rgba(159,35,95,1) 64%
 }
 
 .has-bg-img-2{
-  width: 400px;
+  width: 60vh;
   height: 400px;
   background: url(../img/gamedev.jpg);
   background-size: cover;
@@ -198,7 +211,7 @@ background: linear-gradient(180deg, rgba(122,39,108,1) 0%, rgba(159,35,95,1) 64%
 
 h1{
   font-family: 'Nothing You Could Do', cursive;
-  font-size: 60px;
+  font-size: 100px;
 }
 
 h2{
@@ -293,6 +306,14 @@ h4{
   transform: translate(-50%, -50%);
 }
 
+
+.leftish {
+  position: relative;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, 5%);
+}
+
 .prettytitle{
   font-size: 60px;
   font-display: bold;
@@ -302,7 +323,7 @@ h4{
 }
 
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
   h1{
     font-size: 110px;
   }
@@ -322,6 +343,10 @@ h4{
   }
   .centered{
     left:50%
+  }
+  .leftish{
+    left:50%;
+    transform: translate(-50%, -10%)
   }
 }
 
